@@ -1,0 +1,10 @@
+let guestList1 = ["Mubashir", "Anas", "Rehan"];
+console.log(`I would like to invite you to dinner ${guestList1[0]}`);
+console.log(`I would like to invite you to dinner ${guestList1[1]}`);
+console.log(`I would like to invite you to dinner ${guestList1[2]}`);
+console.log("I just heared that Rehan can't make the dinner");
+guestList1.pop();
+guestList1.push("Amir");
+console.log(`I would like to invite you to dinner ${guestList1[0]}`);
+console.log(`I would like to invite you to dinner ${guestList1[1]}`);
+console.log(`I would like to invite you to dinner ${guestList1[2]}`);
